@@ -1,0 +1,28 @@
+# секреты и настройки
+.env
+.env.*
+!.env.example
+
+# состояние бота и резервные копии
+guard_state.json
+guard_vault.db
+guard_vault.db-*
+*.bk.db
+*.export.json
+
+# свои списки слов (шаблон — custom_words.example.txt)
+custom_words.txt
+custom_words_ar.txt
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# редакторы, ОС, логи
+.idea/
+.vscode/
+.DS_Store
+*.log
